@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+	text-align: center;
+	grid-template-rows: auto;
+	background-color: red;
+}
+.dog{
+	width:%;
+}
+
+/*hypno*/
+.hypno{
+	border-radius: 100%;
+	width: fit-content;
+	height: 190px;
+	width: 190px;
+}
+.all {
+	display: flex;
+}
+.container{
+	background-color: aqua;
+	width: 190px;
+	height: 190px;
+	border-radius: 20vw;
+	transition: all 1s;
+	float: inline-start;
+}
+.container1{
+	background-color: aqua;
+	width: 190px;
+	height: 190px;
+	border-radius: 20vw;
+	transition: all 1s;
+	float: inline-start;
+}
+.container2{
+	background-color: aqua;
+	width: 190px;
+	height: 190px;
+	border-radius: 20vw;
+	transition: all 1s;
+	float: inline-start;
+}
+.container3{
+	background-color: aqua;
+	width: 190px;
+	height: 190px;
+	border-radius: 20vw;
+	transition: all 1s;
+	float: inline-start;
+}
+.container:hover{
+	transform: rotate(360deg) scale(1)
+    	 translate(x, y) 
+     transform: perspective(500px) translate(17px, 0); 
+    transform: scale(1) rotate(360deg);
+	animation: hypno 1s infinite;
+}
+.container1:hover{
+	transform: rotate(360deg) scale(1)
+    	 translate(x, y) 
+     transform: perspective(500px) translate(17px, 0); 
+    transform: scale(1) rotate(360deg);
+	animation: hypno 1s infinite;
+}
+.container2:hover{
+	transform: rotate(360deg) scale(1)
+    	 translate(x, y) 
+     transform: perspective(500px) translate(17px, 0); 
+    transform: scale(1) rotate(360deg);
+	animation: hypno 1s infinite;
+}
+.container3:hover{
+	transform: rotate(360deg) scale(1)
+    	 translate(x, y) 
+     transform: perspective(500px) translate(17px, 0); 
+    transform: scale(1) rotate(360deg);
+	animation: hypno 1s  ease-in-out infinite;
+hypno
+
+@keyframes hypno {
+	0% {background-color:blue;
+	transform: translateX(10)
+}
+20%{
+	background-color: blue;
+	transform: scale(0.5);
+}
+40% {background-color:blue;
+	transform: translateX(10)
+}
+	60% {background-color:blue;
+		transform: rotate(300deg)
+	}
+		80% {background-color:blue;
+			transform: translateX(50)
+		}
+			100% {background-color:blue;
+				transform: translateX(50)
+			}
+			
+			/*second approach*/
+			@keyframes hypno{
+				from{
+					
+					
+				}
+				to{
+				  transform: rotate(360deg);
+				}
+			}
